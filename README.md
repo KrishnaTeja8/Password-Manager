@@ -1,65 +1,67 @@
 🔐 Password Manager (Tkinter)
 
-A simple desktop password manager built with Python and Tkinter.
-This application helps you generate strong random passwords and save credentials securely in a local file.
+A simple yet powerful desktop password manager built with Python and Tkinter.
+This application helps users generate, store, and search strong passwords securely in a local file.
 
 ✨ Features
 
-✅ Random Password Generator: Creates secure, random passwords with a mix of letters, numbers & symbols.
-
-✅ One-Click Copy: Generated passwords are automatically copied to the clipboard using pyperclip.
-
-✅ Data Storage: Saves website, email/username, and password to a text file (data.txt).
-
-✅ User-Friendly GUI: Built with Tkinter for a clean and interactive interface.
+✅ Random Password Generator – Creates secure, random passwords with a mix of letters, numbers, and symbols.
+✅ One-Click Copy – Automatically copies the generated password to the clipboard using pyperclip.
+✅ Data Storage (JSON) – Saves website, email/username, and password in a structured JSON file (data.json).
+✅ Search Functionality – Instantly find saved credentials using the Search button.
+✅ User-Friendly GUI – A clean and interactive interface built with Tkinter.
+✅ Error Handling – Handles missing files or empty inputs gracefully with alerts.
 
 🛠️ Technologies Used
 
-Python 3
+🐍 Python 3
 
-Tkinter – for the GUI
+🪟 Tkinter – for the GUI interface
 
-pyperclip – for copying passwords to clipboard
+📋 pyperclip – to copy passwords to clipboard
 
-random – to generate strong passwords
+🔢 random – for password generation
+
+💾 json – for structured data storage
 
 🚀 How to Run
+1️⃣ Clone the Repository
+git clone https://github.com/KrishnaTeja8/Password-Manager.git
 
-Clone the repository:
-
-git clone https://github.com/<your-username>/<your-repo-name>.git
-
-
-Install dependencies:
-
+2️⃣ Install Dependencies
 pip install pyperclip
 
+3️⃣ Add an App Logo
 
-Add a logo.png image to the project folder (for the app logo).
+Place a file named logo.png in the project directory (any 200x200 image works).
 
-Run the app:
-
+4️⃣ Run the Application
 python main.py
 
 📁 File Structure
-├─ main.py       # Main application code
-├─ data.txt      # Stores saved credentials
-├─ logo.png      # App logo (provide your own image)
-└─ README.md     # Project documentation
+📦 Password-Manager
+├── main.py         # Main application code
+├── data.json       # Stores saved credentials in JSON format
+├── logo.png        # App logo
+└── README.md       # Project documentation
 
 🔮 Future Enhancements
 
-🔒 Encrypt saved passwords for extra security.
+🔒 Encrypt Stored Passwords – Add encryption for more security.
+🔍 Advanced Search Filters – Filter results by website or username.
+🗂️ Category Management – Organize credentials by account type (e.g., social, work, finance).
+☁️ Cloud Sync – Optionally sync data securely to a cloud storage service.
 
-🔍 Search functionality to quickly find saved credentials.
-
-🗂️ Option to organize credentials by category.
-
-
-
+🧩 Key Functionalities Snapshot
+Feature	Description
+Generate Password	Randomly creates a secure password
+Copy to Clipboard	Instantly copies generated password
+Add Entry	Saves credentials locally in data.json
+Search	Finds and displays stored credentials
+Error Alerts	Notifies if file/data is missing or invalid
 👤 Author
 
-Your Name
-💻 GitHub: @Krishna Teja8
+Krishna Teja
+💻 GitHub: @KrishnaTeja8
 
-⭐ Don’t forget to star the repository if you find it useful!
+⭐ If you found this project useful, don’t forget to star the repository and share it!
